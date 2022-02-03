@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+/* BLACK */
+header,
+footer,
+.home main .wall .caption,
+.home main .banner input[type="submit"],
+.contact main input[type="submit"] {
+  background-color: #454545;
+}
+.home main .gallery figcaption {
+  color: #454545;
+}
+
+/* DARK */
+footer address {
+  background-color: #2d2d2d;
+}
+
+/* GREY */
+.home main .wall .caption ul {
+  background-color: #eee;
+}
+header table i,
+.home main .banner td,
+footer li div:first-child,
+footer li div:first-child a,
+footer address {
+  color: #949494;
+}
+header table td:nth-child(odd),
+.home main .banner input {
+  border-color: #949494;
+}
+
+/* PRIMARY */
+.home main .wall .caption li {
+  background-color: #fff200;
+}
+.home main .wall .caption b {
+  color: #fff200;
+}
+
+/* ACCENT */
+.home main .wall .caption a {
+  background-color: #060709;
+  color: #fff200;
+}
+.home main .wall .caption a:last-child {
+  background-color: #fff200;
+  color: #060709;
+}
+
+/* OVERWRITE */
+.home main .wall {
+  background-repeat: repeat;
+  background-size: contain;
+}

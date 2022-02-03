@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+.home main .wall {
+  background-image: url("../img/wall_1.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 39em;
+}
+.home main .wall {
+  transition-property: background-image;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0;
+  /* Safari */
+  -webkit-transition-property: background-image;
+  -webkit-transition-duration: 1s;
+  -webkit-transition-timing-function: ease-in-out;
+  -webkit-transition-delay: 0;
+}
+.home main .wall .caption {
+  padding: 40px;
+  margin: 140px 20px;
+  width: 600px;
+  background-color: white;
+  display: inline-block;
+}
+.home main .wall .caption b {
+  text-transform: uppercase;
+}
+.home main .wall .caption ul {
+  margin: 10px 0;
+  height: 2px;
+}
+@keyframes meter {
+    from {width: 25%;}
+    to {width: 75%;}
+}
+.home main .wall .caption li {
+  width: 50%;
+  height: 2px;
+  animation: meter 4s ease-out 1s 2 alternate;
+}
+.home main .wall .caption article {
+  margin: 20px 0;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+.home main .wall .caption a {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.home main .banner {
+  padding: 15px 10px;
+  background-color: #eee;
+}
+.home main .banner input {
+  border: solid thin;
+}
+.home main .banner input[type="email"] {
+  padding: 10px;
+  background-color: #fff;
+  width: 240px;
+  -webkit-transition: all 0.5s; /* Safari */
+  transition: all 0.5s;
+}
+.home main .banner input[type="email"]:focus {
+  background-color: #ffc;
+  width: 250px;
+}
+.home main .banner input[type="submit"] {
+  color: #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.home main .gallery {
+  padding: 80px 0;
+  background-color: #fff;
+}
+.home main .gallery ul {
+  width: 100%;
+}
+.home main .gallery li {
+  margin: 20px 0;
+  width: 33%;
+}
+.home main .gallery figure {
+  box-shadow: 0 1px 2px 0 #ddd;
+}
+.home main .gallery figure img {
+  width: 100%;
+}
+.home main .gallery figcaption {
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+.about main {
+  padding-bottom: 40px;
+}
+.about main h1 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: solid;
+}
+.about main a {
+  text-decoration: underline;
+}
+.about main figure {
+  margin: 20px 0;
+  box-shadow: 0 1px 2px 0 #ddd;
+}
+.about main figure img {
+  width: 100%;
+}
+.about main figcaption {
+  padding: 10px 20px;
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact main h1 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: solid;
+}
+.contact main input,
+.contact main textarea {
+  padding: 10px;
+  margin: 10px 0;
+  width: 100%;
+  border: solid thin;
+  display: block;
+}
+.contact main textarea {
+  height: 200px;
+  font-size: 14px;
+}
+.contact main input[type="submit"] {
+  color: #fff;
+  padding: 15px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}

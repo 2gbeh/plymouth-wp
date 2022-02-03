@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+  background-color: #fff;
+}
+
+header {
+  padding: 20px 20px 10px;
+}
+header img {
+  color: #fff;
+  font-size: 28px;
+  font-weight: bold;
+  white-space: nowrap;
+}
+header table {
+  width: auto;
+  float: right;
+  display: inline-block;
+}
+header table tr {
+  vertical-align: top;
+}
+header table td {
+  padding: 0;
+}
+header table td img {
+  width: 44px;
+}
+header table td:first-child img {
+  width: 38px;
+}
+header table td:nth-child(odd) {
+  padding: 0 10px;
+  border: 0;
+  border-left: solid thin;
+}
+header table td:nth-child(even) {
+  padding-right: 15px;
+}
+header table td:last-child {
+  padding-right: 0;
+}
+header table b {
+  color: #fff;
+  font-size: 14px;
+  display: block;
+}
+header table i {
+  font-size: 14px;
+  font-style: normal;
+}
+
+nav {
+  position: relative;
+}
+nav div {
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 5px;
+}
+nav a {
+  background-color: #0093dd;
+  color: #fff;
+  padding: 5px 20px 8px;
+  font-size: 12px;
+  border-right: solid thin #007bb8;
+}
+nav a:first-child {
+  background-color: #d81b60;
+  font-weight: bold;
+  border-radius: 0 0 0 10px;
+}
+nav a:last-child {
+  border-radius: 0 0 10px 0;
+  border-right: none;
+}
+nav a:hover {
+  background-color: #007bb8;
+  color: #75c5f0;
+  font-weight: bold;
+}
+
+main {
+  min-height: 683px;
+  display: block;
+}
+
+footer ul {
+  padding: 40px 10px;
+  text-align: center;
+}
+footer li {
+  color: #fff;
+  text-align: left;
+}
+footer li:first-child {
+  width: 310px;
+}
+footer li:nth-child(2) {
+  padding-left: 80px;
+  width: 310px;
+}
+footer li div {
+  margin: 20px 0;
+}
+footer li div:first-child {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+footer li div a {
+  color: #fff;
+  font-style: normal;
+  display: inline-block;
+  white-space: nowrap;
+}
+footer li div a:hover {
+  text-decoration: underline;
+}
+footer li img {
+  width: 20px;
+  margin-top: 2px;
+  margin-right: 10px;
+  float: left;
+  display: inline-block;
+}
+footer address {
+  padding: 20px 10px;
+  text-align: center;
+}

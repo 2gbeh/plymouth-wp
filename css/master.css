@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+/*	font-family:Roboto, sans-serif;	*/
+/*  font-family:Verdana, Geneva, sans-serif;*/
+	font-family:"Segoe UI","Segoe UI Light","Segoe Script";
+  font-size-adjust:100%/1.4;
+  box-sizing:border-box;}
+body {
+  padding:0; 
+  margin:0;  
+	background-color:#EEE;
+  color:#333;
+	font-size:16px;}
+h1, h2, h3, h4, h5, h6 {
+	padding-left:0;
+	padding-right:0;
+	margin-left:0;
+	margin-right:0;
+	font-weight:normal;}
+a {
+	text-decoration:none;
+	color:inherit;
+	cursor:pointer;
+	display:inline-block;}	
+ol, ul, dl {
+	padding:0;
+	margin:0;
+	list-style-type:none;}
+ul li {
+	display:inline-block; 
+	vertical-align:top;}
+ol li {display:block;}	
+table {
+	width:100%;
+	border-collapse:collapse;}	
+th {cursor:default;}
+span {
+	display:inline-block;
+	vertical-align:top;}
+address {font-style:normal;}
+var {font-style:normal;}
+
+/* PREDEFINED */
+.wrap {margin:0 auto;}	
+.no_wrap {white-space:nowrap;}
+.text_shadow {text-shadow:0 1px 0 #FFF;}		
+.box_shadow {box-shadow:0 1px 2px 0 #DDD;}
+.glow_shadow {box-shadow:0 0 30px #DDD;}	
+.wall_fixed {
+	background-repeat:no-repeat;
+	background-position:top center;
+	background-attachment:fixed;
+	background-size:cover;
+	height:35em;}	
+.wall_scroll {	
+	background-repeat:no-repeat;	
+	background-position: center center;
+	background-attachment: scroll;
+	background-size: contain;
+}
+
+/* RESPONSIVE */
+@media only screen and (max-width:683px) {
+	
+}	

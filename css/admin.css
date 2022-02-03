@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+.admin main h1 {
+  font-weight: bold;
+  padding-bottom: 10px;
+  border-bottom: solid;
+}
+
+.admin main table caption {
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-align: left;
+  font-size: 14px;
+  font-weight: bold;
+}
+.admin main table caption a {
+  margin-top: 5px;
+  float: right;
+  font-size: 24px;
+  line-height: 0.2;
+  -webkit-transition: color 0.2s; /* Safari */
+  transition: color 0.2s;
+}
+.admin main table caption a:hover {
+  color: #ee1111;
+  cursor: default;
+}
+.admin main table tr {
+  vertical-align: top;
+}
+.admin main table th {
+  padding: 10px;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 15px;
+  border-bottom: solid #555;
+  white-space: nowrap;
+}
+.admin main table th:first-child,
+.admin main table th:nth-child(2) {
+  width: 1px;
+}
+.admin main table td {
+  padding: 5px 10px;
+  font-size: 15px;
+  border-bottom: solid thin #999;
+  white-space: nowrap;
+}
+.admin main table td:nth-child(6) {
+  white-space: normal;
+}
+.admin main table tr:nth-child(odd) td {
+  background-color: #dfdfdf;
+}
+.admin main table tr:hover td,
+.admin main table tr.focus td {
+  background-color: #bdcbd9;
+  text-shadow: 0 1px 0 #fff;
+  border-bottom: solid thin;
+}
+.admin main table td a {
+  padding: 8px 10px;
+  background-color: #e11;
+  color: #fff;
+  text-shadow: none;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}

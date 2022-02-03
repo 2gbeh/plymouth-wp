@@ -1,0 +1,25 @@
+{
+  "name": "DE RACICOT CORPORATION",
+  "short_name": "DE RACICOT",  
+  "description": "Top rated remodeling company in Miami, Florida.",
+  "background_color": "#ffffff",
+  "theme_color": "#454545",
+  "start_url": "index.php",
+  "scope": "/",  
+  "display": "standalone",
+  "orientation": "portrait",
+  "dir": "rtl",
+  "lang": "en-US",
+  "icons": [
+    {
+      "src": "/img/apple-touch-icon.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/msapplication-tile-image.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

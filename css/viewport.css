@@ -1,0 +1,32 @@
+@charset "utf-8";
+wrap {
+  margin: 0 auto;
+  width: 90%;
+  display: block;
+}
+wrap.outer {
+  margin: 50px auto 100px;
+  width: 800px;
+}
+wrap.inner {
+  margin: 50px auto 100px;
+  width: 600px;
+}
+
+@media only screen and (max-width: 1024px) {
+  wrap {
+    width: 1024px;
+  }
+  .home main .wall {
+    height: 35em;
+  }
+  .home main .wall .caption {
+    margin: 100px 0;
+  }
+  .home main .gallery {
+    padding: 20px 0;
+  }
+  .home main .gallery li {
+    margin: 10px 0;
+  }
+}
